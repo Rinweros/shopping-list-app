@@ -1,0 +1,16 @@
+
+.item-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.item-list li {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.item-list .resolved {
+  text-decoration: line-through;
+  color: #888;
+}
